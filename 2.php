@@ -1,5 +1,5 @@
 <?php
-function findPerfectNumbers($array)
+function findPerfectNumbers(array $array):array
 {
     $perfectNumbers = [];
     foreach ($array as $number) {

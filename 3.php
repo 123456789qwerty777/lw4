@@ -1,5 +1,5 @@
 <?php
-function mostRecent($text)
+function mostRecent(string $text):string
 {
     $text = strtolower($text);
     $words = explode(' ', $text);

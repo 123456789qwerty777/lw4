@@ -1,5 +1,5 @@
 <?php
-function alphabeticalOrder($str)
+function alphabeticalOrder(string $str):string
 {
     $length = strlen($str);
     for ($i = 0; $i < $length - 1; $i++) {
